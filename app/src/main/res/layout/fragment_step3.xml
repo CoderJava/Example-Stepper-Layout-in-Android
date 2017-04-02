@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.ysn.codepolitan_examplestepperlayout.Step3Fragment"
+    >
+
+    <!--biodata diri-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biodata Diri"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Lengkap"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_nama_lengkap"
+        android:text="Yudi Setiawan"
+        android:paddingTop="3dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="13dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_alamat"
+        android:text="Jalan Klambir 5 no. 65 Medan"
+        android:paddingTop="3dp"
+        />
+
+    <!--orang tua-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orang Tua"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Ibu"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_nama_ibu"
+        android:text="Rosmaini"
+        android:paddingTop="3dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Ayah"
+        android:layout_marginTop="13dp"
+        android:textColor="@android:color/darker_gray"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_nama_ayah"
+        android:text="Mardi"
+        android:paddingTop="3dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.ysn.codepolitan_examplestepperlayout.Step1Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_edit_text_container"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="13dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:paddingStart="13dp"
+                android:paddingTop="6dp"
+                android:text="Nama Lengkap *"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/edit_text_nama_lengkap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:paddingBottom="5dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:paddingTop="5dp"
+                android:imeOptions="actionNext"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/background_edit_text_container"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="13dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:paddingStart="13dp"
+                android:paddingTop="6dp"
+                android:text="Alamat *"
+                android:textSize="13sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/edit_text_alamat"
+                android:background="@android:color/transparent"
+                android:gravity="top"
+                android:paddingBottom="5dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:paddingTop="5dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_next_fragment_step_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/background_button"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_alignParentBottom="true"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
